@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.containerListScams {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+.scam-container {
+  width:500px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  margin:20px;
+}
+
+.scam-title {
+  font-size: 1.5rem;
+  color: #000;
+  margin: 10px 0;
+  text-align:center;
+}
+
+.scam-descrip-container {
+  display: flex;
+  flex-direction: row;
+  height:40%;
+}
+
+.scam-img {
+  width: 100%;
+  height: 100%;
+}
+
+.scam-decrip-text-container > p {
+  text-align: justify;
+}
+.scam-decrip-text-container,
+.scam-descrip-img-container {
+  width: 50%;
+  padding: 10px;
+ }
+
+ .scam-descrip-img-container > img{
+  width:100%;
+ }
+
+ .scam-features-container {
+  width:100%;
+  
+  align-items: center;
+  padding: 10px;
+ }
+
+ .tituloPrincipal {
+  text-align: center;
+  margin-top:20px;
+ }
